@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    /* background: rgb(189,195,199);
+    background: linear-gradient(103deg, rgba(189,195,199,1) 0%, rgba(106,125,105,1) 28%, rgba(44,62,80,1) 70%); */
+    /* background: #6f5359; */
+    /* background-image: url('../form-float/images/powder.jpg'); */
+    background: rgb(32,14,13);
+    background: linear-gradient(103deg, rgba(32,14,13,1) 36%, rgba(100,60,64,1) 68%, rgba(171,112,82,1) 99%);
+    font-family: sans-serif;
+    background-size:cover ;
+}
+.title{
+    text-align: center;
+    padding: 50px 0 20px ;
+}
+.title h1{
+   
+    color: #623c39;
+    text-transform: uppercase;
+    font-size: 37px;
+
+}
+h1{
+  margin-bottom: 10px;
+  color: antiquewhite;
+
+}
+.container{
+    width:50%;
+    height: 425px;
+    background-color: #fff;
+    margin:100px auto;
+    padding: 0;
+    box-shadow: 0 15px 40px rgb(0 0 0 / 50%);
+   
+    /* padding: 20px; */
+    /* border: 1px solid #fff; */
+    /* box-shadow: 0 15px 40px rgba(0, 0 ,0 ,.5); */
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 425px;
+    background-image: url('powder.jpg');
+background-size: cover;
+box-sizing: border-box;
+}
+
+
+.container .right{
+    float: right;
+    width: 50%;
+    height: 425px;
+ 
+box-sizing: border-box;
+}
+.form-box{
+    width: 100%;
+    padding: 54px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background-color: #392F36;
+}
+input[type='email']  ,input[type='text'] ,input[type='tel']{
+margin-bottom: 10px;
+border: none;
+border-bottom: 1px solid #262626;
+outline: none;
+height: 32px;
+width: 239px;
+background-color: #392F36;
+color:antiquewhite
+}
+input:focus{
+border-bottom: #262626 2px solid;
+}
+::placeholder{
+    color: rgb(126, 124, 122);
+}
+button{
+    border: none;
+    outline: none;
+    height: 29px;
+    color: #efe8e8;
+    background-color: #200E0D;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 24px;
+    width: 79px;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: #623c39;
+    border: 1px solid;
+}
+input[type='date']{
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #262626;
+    outline: none;
+    height: 17px;
+    width: 239px;
+    margin-top: 25px;
+    background-color: #392F36;
+    /* color:#3B3536; */
+    color: antiquewhite;
+
+}
+/* input[type='email']{
+    display: block;
+    width: 237px;
+} */
+h2{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    background-color: #fff;
+    color: antiquewhite;
+}
+
+
+input[type="tel"] {
+    margin-top: 0px;
+}
+#login{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #efe8e8;
+    background-color: #200E0D;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 57px 3px 0 0px;
+display: block;
+width: 117px;
+}
+select{
+    display: block;
+    padding: 2px;
+    width: 238px;
+    margin-bottom: 20px;
+    background-color: #392F36;
+    color: rgb(126, 124, 122);
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin: 10px 0 0;
+    color: antiquewhite;
+}
+option{
+    color: antiquewhite;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.mylink{
+color: #623c39;
+margin-top: 30px;
+
+}

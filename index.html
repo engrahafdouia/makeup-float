@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+<div class="container">
+    <div class="left"></div>
+    <div class="right">
+        <div class="form-box">
+            <h1>Register form</h1>
+            <form>
+                <input type="text"placeholder="name">
+                <input type="email" placeholder="user@gmail.com">
+                <input type="tel" minlength="4" maxlength="8"placeholder="00000000">
+                <select value="gender"name="gender">
+                    <option disabled selected>Gender</option>
+                    <option >male</option>
+                    <option >female</option>
+                  </select>
+                  
+                  <Input  placeholder="birthday"
+                  type="date"value="2021-10-25"
+                  css={css`
+                      ::-webkit-calendar-picker-indicator {
+                         
+                          color: black;
+                      }
+                  `}
+
+              />
+                    <button type="submit">submit</button>
+          <!-- <a href="register.html">Create new account</a> -->
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
